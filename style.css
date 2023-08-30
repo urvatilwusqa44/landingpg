@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    
+}
+.showcase{
+    background-image:url('beach2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+}
+.showcase button{
+    font-size: 16px;
+    color:rgb(52, 102, 52);
+    border: rgb(52, 102, 52) 1px solid;
+    padding: 10px 10px;
+    margin-top: 20px;
+    height: 38px;
+    width: 120px;
+    border-radius: 10px;
+    text-decoration: none;
+
+    
+}
+.showcase h1{
+    font-size: 50px;
+    color:rgb(52, 102, 52);
+    line-height: 1.2;
+}
+.showcase p{
+    font-size: 20px;
+    color: rgb(52, 102, 52);
+    
+}
+.showcase button:hover{
+    background-color: rgb(52, 102, 52);
+    color: white;
+}
+.section-a{
+    background-color:rgb(52, 102, 52);
+    padding: 20px;
+    color: white;
+    text-align: centers;
+}
+.section-b{
+    background-color:aliceblue;
+    padding: 20px;
+    color:rgb(52, 102, 52);
+    text-align: centers;
+}
+.section-c{
+    display: flex;
+}
+.section-c .box-1, .section-c .box-3{
+    background-color: rgb(52, 102, 52);
+    color: white;
+    font-size: 15px;
+
+}
+.section-c .box-2{
+    background-color:azure;
+    color:rgb(52, 102, 52);
+}
+.section-c div{
+    padding: 20px;
+}
+@media screen and (max-width: 500px){
+.showcase h1{
+    line-height: 1.1;
+    font-size: 35px;
+
+}
+.showcase p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.showcase button{
+    font-size: 12px;
+    color:rgb(52, 102, 52);
+    border: rgb(52, 102, 52) 1px solid;
+    padding: 8px 8px;
+    margin-top: 8px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+
+
+}
+.section-a{
+    background-color:rgb(52, 102, 52);
+    padding: 10px;
+    color: white;
+    text-align: centers;
+    font-size: 15px;
+}
+.section-b{
+    background-color:aliceblue;
+    padding: 10px;
+    color:rgb(52, 102, 52);
+    text-align: centers;
+    font-size: 15px;
+}
+.section-c{
+    display: flex;
+    flex-direction: row;
+}
+.section-c div{
+    padding: 10px;
+}
+.section-c .box-2{
+    background-color:azure;
+    color:rgb(52, 102, 52);
+    font-size: 15px;
+}
+}
